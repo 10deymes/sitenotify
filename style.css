@@ -1,0 +1,32 @@
+body{
+    grid-template-areas: 'header header header header header'
+                         'nav nav nav nav nav'
+                         'section section section section section'
+                         'aside aside aside aside aside'
+                         'footer footer footer footer footer';
+    grid-template-rows: 20vh 70vh 70vh 70vh 40vh;
+}
+
+.topodapagina{
+    color: blue;
+}
+
+header{
+
+}
+
+nav{
+
+}
+
+section{
+
+}
+
+aside{
+
+}
+
+footer{
+
+}
