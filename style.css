@@ -1,32 +1,27 @@
 body{
-    grid-template-areas: 'header header header header header'
-                         'nav nav nav nav nav'
-                         'section section section section section'
-                         'aside aside aside aside aside'
-                         'footer footer footer footer footer';
-    grid-template-rows: 20vh 70vh 70vh 70vh 40vh;
-}
-
-.topodapagina{
-    color: blue;
+    margin: 0;
 }
 
 header{
-
+    display: flex;
+    width: 100%;
+    height: 480px;
+    background-image: url(img/banner.png);
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    border-top: 10px solid rgb(63, 236, 63);
 }
 
-nav{
-
+#divTexto, #divimagem{
+    width: 45%;
+    height: 100%;
+    cursor: pointer;
 }
 
-section{
-
+#divImagem{
+    width: 350px;
+    display: flex;
+    
 }
 
-aside{
-
-}
-
-footer{
-
-}
